@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.program.breezzwizard" name="[COLORred]BReeZz Wizard[/COLOR]" version="1.1" provider-name="BReeZz">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR red]BReeZz Kodi Wizard[/COLOR] for Kodi</summary>
+        <description lang="en">[COLOR red]BReeZz Wizard[/COLOR] offers many maintenance features, selective add-on data saving, and a variety of builds.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source />
+        <news />
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon><addon id="plugin.program.ladyguinwiz" name="[COLOR white]LadyGuin Wizard[/COLOR]" version="2.2.1" povider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR], Slam, Funsterbe">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.six" />
+    <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GUI Wizard</summary>
+    <description lang="en">In this wizard you will find the latest GUI Wizard and Tools. Thanks whufclee at NaN, GUYS at TI, Brackets for the app installer!! RomanVM for the PyXBMCt libs. Fire TV Guru for the PyXBMCt layout  Also a very special Thanks to Surfacingx for the base code used in this add-on.</description>
+    <platform>all</platform>
+    <assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+  </extension>
+</addon><addon id="plugin.program.nxtflixsimple" name="[COLOR skyblue]NXTFlix Simple Wizard[/COLOR]" version="1.4" provider-name="BLRY12">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">NXFTFlix Simple Wizard is a lightweight template for installing builds on Kodi. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to @slamious on Telegram/Twitter.</summary>
+		<description lang="en_GB">Kodi Wizard</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+		<news />
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+	</extension>
+</addon><addon id="plugin.program.the666mafia" name="[COLOR red]The 666 Mafia GUI WIZARD[/COLOR]" version="1.0" provider-name="The 666 Mafia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.six" />
+    <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The 666 Mafia Builds Wizard</summary>
+    <description lang="en">In this wizard you will find the latest GUI Wizard and Tools. Thanks whufclee at NaN, GUYS at TI, Brackets for the app installer!! RomanVM for the PyXBMCt libs. Fire TV Guru for the PyXBMCt layout  Also a very special Thanks to Surfacingx for the base code used in this add-on.</description>
+    <platform>all</platform>
+    <assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+  </extension>
+</addon><addon id="plugin.program.triple666mafia" name="[COLOR red]Triple 666 Mafia Wizard[/COLOR]" version="1.2" provider-name="Set.it.off.666">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Simple Wizard is a lightweight template for installing builds on Kodi. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to @slamious on Telegram/Twitter.</summary>
+		<description lang="en_GB">Kodi Wizard</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+		<news />
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+	</extension>
+</addon><addon id="repository.slyguy" name="SlyGuy Repository" provider-name="SlyGuy" version="0.0.9">
+  <extension point="xbmc.addon.repository" name="SlyGuy Repository">
+    <dir>
+      <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
+      <checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
+      <datadir zip="true">https://slyguy.uk/.repo/repository.slyguy/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by SlyGuy (slyguy.uk)</description>
+    <license />
+    <language />
+    <website />
+    <news />
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon><addon id="repository.the666mafia" name="[COLOR red]the666Mafia[/COLOR]" version="1.0" provider-name="the666Mafia">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/the666mafia/repo/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/the666mafia/repo/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/the666mafia/repo/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>the666Mafia</summary>
+        <description>Repo for the the666Mafia Wizard</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="repository.thetriple666mafia" name="[COLOR red]thetriple666Mafia[/COLOR]" version="1.1" provider-name="thetriple666mafia">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/blry12/thetriple666mafia/repo/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/blry12/thetriple666mafia/repo/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/blry12/thetriple666mafia/repo/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>thetriple666mafia</summary>
+        <description>Repo for the thetriple666mafia Wizard</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="script.module.certifi" name="certifi" version="2022.9.24" provider-name="Certifi">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python package for providing Mozilla's CA Bundle.</summary>
+    <description lang="en_GB">Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project.</description>
+    <license>MPL-2.0</license>
+    <website>https://github.com/certifi/python-certifi</website>
+    <source>https://github.com/certifi/python-certifi</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="script.module.chardet" name="chardet" version="4.0.0+matrix.1" provider-name="Character Encoding Detector">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">The Universal Character Encoding Detector</summary>
+    <description lang="en_GB">The Universal Character Encoding Detector</description>
+    <license>LGPL-2.1</license>
+    <platform>all</platform>
+    <website>https://chardet.readthedocs.io/en/latest/</website>
+    <source>https://github.com/chardet/chardet</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="script.module.idna" name="idna" version="3.4.0" provider-name="Kim Davies">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Internationalized Domain Names for Python</summary>
+    <description lang="en_GB">Internationalized Domain Names for Python</description>
+    <license>BSD-3-Clause</license>
+    <platform>all</platform>
+    <website>https://github.com/kjd/idna</website>
+    <source>https://github.com/kjd/idna</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="script.module.kodi-six" name="Kodi Six" version="0.1.3" provider-name="Roman V.M.">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="libs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Wrappers around Kodi Python API for seamless Python 2/3 compatibility</summary>
+    <description lang="en_GB">Wrappers around Kodi Python API that normalize handling of textual and byte strings in Python 2 and 3.</description>
+    <platform>all</platform>
+    <license>GPL v.3</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=327883</forum>
+    <source>https://github.com/romanvm/kodi.six</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>0.1.3:
+- Fix non-UTF-8 byte string decoding in Python 2.</news>
+  </extension>
+</addon><addon id="script.module.requests" name="requests" version="2.27.1+matrix.1" provider-name="Python Software Foundation">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.certifi" version="2022.5.18+matrix.1" />
+    <import addon="script.module.chardet" version="4.0.0+matrix.1" />
+    <import addon="script.module.idna" version="3.3.0+matrix.1" />
+    <import addon="script.module.urllib3" version="1.26.9+matrix.1" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Requests is an elegant and simple HTTP library for Python, built for human beings.</summary>
+    <description lang="en_GB">Requests is an elegant and simple HTTP library for Python, built for human beings.</description>
+    <license>Apache-2.0</license>
+    <platform>all</platform>
+    <website>https://requests.readthedocs.io/</website>
+    <source>https://github.com/psf/requests</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="script.module.six" name="six" version="1.16.0+matrix.1" provider-name="Benjamin Peterson">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python 2 and 3 compatibility utilities</summary>
+    <description lang="en_GB">Python 2 and 3 compatibility utilities</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://github.com/benjaminp/six</website>
+    <source>https://github.com/benjaminp/six</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="script.module.urllib3" name="urllib3" version="1.26.13+matrix.1" provider-name="urllib3">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">urllib3 is a powerful, user-friendly HTTP client for Python</summary>
+    <description lang="en_GB">urllib3 is a powerful, user-friendly HTTP client for Python. Much of the Python ecosystem already uses urllib3 and you should too. urllib3 brings many critical features that are missing from the Python standard libraries</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://urllib3.readthedocs.io/en/latest/</website>
+    <source>https://github.com/urllib3/urllib3</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon></addons>

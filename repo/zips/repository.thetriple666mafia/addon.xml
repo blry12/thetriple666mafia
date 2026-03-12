@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.thetriple666mafia" name="[COLOR red]thetriple666Mafia[/COLOR]" version="1.1" provider-name="thetriple666mafia">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/blry12/thetriple666mafia/repo/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/blry12/thetriple666mafia/repo/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/blry12/thetriple666mafia/repo/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>thetriple666mafia</summary>
+        <description>Repo for the thetriple666mafia Wizard</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
